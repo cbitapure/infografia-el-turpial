@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale="> 
+<title>El Turpial - Infografía</title>
+<script type="text/javascript" src="js/jssor.slider.min.js"></script>
+</head>
+
+<body>
+
+<div class="view">
+  <div class="plane main">
+    <div class="circle" ></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</div>
+
+</body>
+</html>
+
+      
+    <script>
+        jssor_slider1_init = function () {
+            var options = {
+
+                $AutoPlay: 1,                                  
+                //[Optional]
+                $DragOrientation: 1                             
+
+               //[Optional] 
+            };
+
+            var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+
+            function DisplayIndex(slideIndex, fromIndex) {
+                var myFixedElement = $Jssor$.$GetElement("myfixedelement");
+                $Jssor$.$InnerText(myFixedElement, slideIndex + 1+ " on " + jssor_slider1.$SlidesCount());
+            }
+
+            jssor_slider1.$On($JssorSlider$.$EVT_PARK, DisplayIndex);
+        };
+    </script>
+
+    <!--  -->
+    <div id="slider1_container" style="position: absolute;  z-index:8; top: 100px; left: 80px; width: 1372px; height:500px;"/>
+
+        <!-- fotos -->
+        <div u="slides" style="position: absolute; z-index:8; left: -80px; top: 80px; color:red; 
+        	width: 1372px; height:450px; overflow: hidden;"/>      
+        <div><img u="image" src="img/png/i0.jpg" /></div>  
+			 <div><img u="image" src="img/png/i1.jpg" /></div>
+		    <div><img u="image" src="img/png/i2.jpg" /></div>
+		    <div><img u="image" src="img/png/i3.jpg" /></div>
+		    <div><img u="image" src="img/png/i4.jpg" /></div>
+		    <div><img u="image" src="img/png/i5.jpg" /></div>
+		    
+		    <!--  -->
+        </div>
+
+<img style="position: absolute; z-index:10; top:-100px; left: -85px; width: 1395px; height: 810px;" alt="" src="img/png/intro.png"/> </div>
+        </div>
+<!--
+<img style="position: absolute; z-index:13; top:-10px; left:0px; width: 980px; height:200px;" alt="" src="img/presntas.png"/> </div>
+-->
+
+<body>
+  <div class="loader">Loading</div> 
+<div class="main-content">
+<div class="planets">
+
+  <div style="position: absolute; top:580px; left:10px; z-index:50;" class="planet">
+  	<img width="400px" title='Fundabit' height="70px" src="img/png/e-fundabit.png">
+  </div>  
+  
+   <div style="position: absolute; top:585px; left:620px; z-index:50;" class="planet">
+	<img title="CPSET APURE" src="img/png/e-cpset.png">
+   
+	</div>
+	<a href="paginas/menu.html" onmouseover="imagen0.src='img/png/boton2.png'" onmouseout="imagen0.src='img/png/boton1.png'">
+		<img style="position: absolute; z-index:10; top:610px; left:1050px;" name="imagen0" class="planet"
+			alt="" src="img/png/boton1.png" border="0"/>
+	</a>
+	                        
+</div>
+ <audio autoplay loop>
+  <source src="./audio/canto-turpial.mp3" type="audio/mpeg">
+  Tu Navegador Web no soporta la etiqueta 'audio'. 
+</audio> 
+
+
+</body>
+</html>
+
+      </div>
+      
+        <script>
+            jssor_slider1_init();
+        </script>
+    </div>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Actividades - Infografía El Turpial</title>
+<!--
+		<link rel="stylesheet prefetch" href="../css/bootstrap.min.css">
+		<link rel="stylesheet prefetch" href="../css/w3.css">
+		<link rel="stylesheet" href="../css/jquery-ui.css">
+ 	    <script src="../js/jquery-3.2.1.min.js"></script>
+   	    <script src="../js/jquery-ui.js"></script>  
+
+   	    <script src="../js/picarOjo.js"></script>
+		<!--
+		<link rel="stylesheet" href="../css/css/style1.css">
+
+		<script  src="../js/js/index.js"></script> -->
+
+		<style type="text/css">
+			.nav {
+				  padding-top: 20px;
+
+				  border-radius: 0;
+				  margin-bottom: 0;
+				  /*font-size: 50px;*/
+				  letter-spacing: 2px;
+				  color: #fff;
+				  background: url("../img/png/menu.png") no-repeat; 
+				  height:900px;
+				  width:1375px; 
+			 }
+			 	
+			 @font-face {
+				  font-family: "Arista";
+			      src: url("../img/Arista2-0.ttf") format("truetype");
+			 } 
+			 
+			 #accordion {
+			 	 top:250px;
+			 	 height:600px;
+			 	 width:800px;
+			 	 font-family: "Arista";	
+			 }
+			 
+			 #Palabra {
+				 font-weight:bold;	
+			 }			 
+		</style>
+	    <script>
+			function picarOjo() {
+			    setInterval(function(){ 
+					document.getElementById('ojo').style.display='none';	
+					picarOjo1();
+			    }, 1500);
+
+			}
+
+			function picarOjo1() {
+			    setTimeout(function(){ 
+					document.getElementById('ojo').style.display='block';	
+			    }, 1000);
+
+			}
+
+
+	  </script>
+	</head>
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload='picarOjo();'>
+	
+		<nav class="nav nav-inverse nav-fixed-top">
+		  <div class="container-fluid">
+			<div class="nav-header">
+				
+			  <a class="nav-brand" ></a>
+			</div>
+		  </div>	
+	  		<a href="../Inicio.html" onmouseover="imagen1.src='../img/png/inicio2.png'" onmouseout="imagen1.src='../img/png/inicio1.png'">
+				<img style="position: absolute; z-index:10; top:640px; left:770px;" name="imagen1" 
+				alt="" src="../img/png/inicio1.png" border="0"/>
+			</a>
+		  
+		  	 <a href="actividades.html" onmouseover="act.src='../img/png/actividades2.png'" onmouseout="act.src='../img/png/actividades1.png'">
+				<img style="position: absolute; z-index:10; top:640px; left:885px;" name="act" 
+				alt="" src="../img/png/actividades1.png" border="0"/>
+			</a>
+		  
+		 	<a href="creditos.html" onmouseover="cre.src='../img/png/creditos2.png'" onmouseout="cre.src='../img/png/creditos1.png'">
+				<img style="position: absolute; z-index:10; top:640px; left:1000px;" name="cre" 
+				alt="" src="../img/png/creditos1.png" border="0"/>
+			</a>
+		  
+		<img id='ojo' src="../img/png/ojo.png" style="position: absolute; z-index:10; top:602px; left:1199px;" />
+		
+		 <audio autoplay loop>
+		  <source src="../audio/canto-turpial.mp3" type="audio/mpeg">
+		  Tu Navegador Web no soporta la etiqueta 'audio'. 
+		</audio> 
+	</body>
+</html>
