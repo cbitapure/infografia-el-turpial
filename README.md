@@ -1,5 +1,5 @@
 # infografía-turpial
 
-Infografía sobre el ave nacional de Venezuela, el turpial
+Infografía sobre el turpial, ave nacional de Venezuela
 
-31 mayo 2018
+publicación: 31 mayo 2018
