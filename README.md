@@ -1,4 +1,4 @@
-# infografia-turpial
+# infografía-turpial
 
 Infografía sobre el ave nacional de Venezuela, el turpial
 
